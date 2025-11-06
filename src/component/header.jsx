@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container">
         <div className="flex items-center justify-between">
           <Link to={"/"} className="text-2xl font-bold">
-            Abdulaziz's Blog
+            Students blog site
           </Link>
 
 
@@ -25,4 +25,3 @@ const Header = () => {
 };
 
 export default Header;
-

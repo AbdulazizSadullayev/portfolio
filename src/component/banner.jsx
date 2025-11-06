@@ -13,8 +13,8 @@ const Banner = () => {
         />
 
         <div>
-          <h1 className="text-4xl font-bold">Abdulaziz's Blog</h1>
-          <p className="text-2xl text-gray-700 mt-4">Fronted Dasturchi</p>
+          <h1 className="text-4xl font-bold">Students Blog</h1>
+          <p className="text-2xl text-gray-700 mt-4">Software engineer</p>
           <div className="mt-5 flex items-center gap-4">
             {bannerLinks.map((el) => (
               <a key={el.id} href={el.to} target="_blank">
